@@ -1,5 +1,5 @@
 from typing import Any, Optional, Self
-import moomoo as ft
+import moomoo as ft  # pyright: ignore[reportMissingImports]
 from todaytrade.global_configs import MOOMOO_CLIENT_CONFIG
 
 
