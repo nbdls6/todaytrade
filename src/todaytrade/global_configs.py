@@ -10,5 +10,5 @@ logging.basicConfig(
 PROJECT_ROOT = Path(__file__).parent.parent.parent
 CONFIGS_PATH = PROJECT_ROOT / "configs"
 
-CLIENTS_CONFIG = load_yaml(CONFIGS_PATH / "clients.yaml")
-MOOMOO_CLIENT_CONFIG = CLIENTS_CONFIG["MOOMOO_CLIENT"]
+CLIENT_CONFIGS = load_yaml(CONFIGS_PATH / "client_configs.yaml")
+MOOMOO_CLIENT_CONFIG = CLIENT_CONFIGS["MOOMOO_CLIENT"]
