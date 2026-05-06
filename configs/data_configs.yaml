@@ -1,0 +1,6 @@
+EVENT_DATA:
+  DATA_DIR: events
+  EVENT_LOG_FILE: events_log.csv
+  KLINE_DATA:
+    DATA_DIR: klines
+    1M_DATA_DIR: 1m
