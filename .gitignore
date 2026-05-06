@@ -6,6 +6,9 @@ __pycache__/
 # Data
 data/
 
+# Claude
+.claude/
+
 # Python
 *test.ipynb
 
